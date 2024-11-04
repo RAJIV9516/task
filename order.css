@@ -1,0 +1,435 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* =====================topnav====================================== */
+.topnav{
+    display: flex;
+    box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+
+}
+.topnav article .ar1{
+    display: flex;
+    align-items: center;
+}
+.topnav article .ar2{
+    display: flex;
+}
+.topnav article .ar1 div{
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+}
+.topnav article .ar2 div{
+    margin: 20px;
+}
+.topnav article .ar2{
+    padding: 10px 0px 0px 40px;
+}
+.topnav article div img{
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.topnav .ar1 .div2{
+    margin-left: 300px;
+}
+.topnav .ar1 div a{
+    text-decoration: none;
+    color: black;
+}
+.topnav .ar2 a{
+    text-decoration: none;
+    color: black;
+}
+.topnav .ar1 .div2 .div3{
+    background-color: rgb(248, 216, 14);
+    padding: 10px ;
+    width: 80px; 
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+.topnav .ar1 .div2 .location i{
+    color: red;
+  
+}
+/* ================================================================= */
+#smallnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    display: none;
+}
+
+#shownav{
+    width: 1400px;
+    height: 200vh;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -3000px;
+    /* opacity: 0.1; */
+    /* padding: 20px 0px 0px 20px; */
+
+}
+
+@media(max-width:1025px){
+
+    .topnav{
+        display: none;
+    }
+    #smallnav{
+        display: flex;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-evenly;
+        box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+        width: 1400px;
+    }
+    #smallnav #div1 img{
+        height: 100px;
+    }
+    #smallnav #div2{
+        font-size: 40px;
+        padding: 10px 0px 0px 40px;
+    }
+    #smallnav #div3 a{
+         text-decoration: none;
+         font-size: 20px;
+    }
+    #smallnav #div3{
+        background-color: rgb(248, 216, 14);
+        padding: 20px ;
+        width:100px; 
+        height: 30px;
+        margin-top: 15px;
+        border-radius: 5px;
+        /* margin: 30px 0px 0px 650px; */
+        margin-left: 950px;
+    
+    }
+    #shownav{
+          font-size: 27px;
+
+    }
+    #shownav div a{
+        text-decoration: none;
+        padding: 40px 0px 0px 100px;
+
+    }
+    #shownav div{
+        padding: 32px;
+    }
+    #shownav #div1{
+        display: flex;
+        justify-content:space-between;
+    }
+    #shownav #div2{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    #shownav #div5{
+        padding: 0px 50px 0px 130px;
+    }
+    #shownav #div6{
+        font-size: 30px ;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #shownav #div7{
+        font-size: 27px ;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #shownav #div8{
+        padding: 0px 50px 0px 130px;
+    }
+
+    #input1:checked ~ #shownav{
+        left: 0px;
+        /* transition:left 0.5s; */
+    }
+
+}
+.hero1{
+    height: 1000px;
+    width: 600px;
+    background-color: rgb(242, 238, 238);
+    background-color: white;
+    align-items: center;
+    margin-left: 470px;
+    box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+
+}
+.hero1 .ar1 .div1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.hero1 .ar1 .div2{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.hero1 .ar2{
+    display: flex;
+    padding: 20px 0px 0px 50px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 50px;
+}
+.hero1 .ar2 .div1{
+    font-size: 30px;
+}
+.hero1 .ar2 .div3{
+    padding: 0px 0px 0px 40px;
+}
+.hero1 .ar3{
+    display: flex;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 50px;
+}
+.hero1 .ar3 .div1 img{
+    height: 60px;
+    width: 100px;
+    padding: 0px 0px 0px 30px;
+} 
+.hero1 .ar3 .div2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.hero1 .ar3 .div2 {
+    padding: 20px 0px 0px 100px;
+
+}
+.hero1 .ar3 .div3{
+    padding: 20px 0px 0px 130px;
+    font-size: 30px;
+    color: black;
+}
+.hero1 .ar4 {
+    display: flex;
+    margin: 50px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.hero1 .ar4 .div1 img{
+    height: 60px;
+    width: 100px;
+    padding: 0px 0px 0px 30px;
+
+}
+.hero1 .ar4 .div2 a{
+    text-decoration: none;
+    color: black;
+}
+.hero1 .ar4 .div2{
+    padding: 20px 0px 0px 100px;
+    font-size: 20px;
+}
+.hero1 .ar4 .div3{
+    font-size: 30px;
+    padding: 20px 0px 0px 130px;
+    color: black;
+}
+.hero1 .ar5{
+    display: flex;
+    margin: 50px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.hero1 .ar5 .div1 img{
+    height: 60px;
+    width: 100px;
+    padding: 0px 0px 0px 30px;
+
+}
+.hero1 .ar5 .div2 a{
+    text-decoration: none;
+    color: black;
+}
+.hero1 .ar5 .div2{
+    padding: 20px 0px 0px 100px;
+    font-size: 20px;
+}
+.hero1 .ar5 .div3{
+    font-size: 30px;
+    padding: 20px 0px 0px 130px;
+    color: black;
+}
+
+.hero1 .ar6{
+    display: flex;
+    margin: 50px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.hero1 .ar6 .div1 img{
+    height: 60px;
+    width: 100px;
+    padding: 0px 0px 0px 30px;
+
+}
+.hero1 .ar6 .div2 a{
+    text-decoration: none;
+    color: black;
+}
+.hero1 .ar6 .div2{
+    padding: 20px 0px 0px 100px;
+    font-size: 20px;
+}
+.hero1 .ar6 .div3{
+    font-size: 30px;
+    padding: 20px 0px 0px 130px;
+    color: black;
+}
+.hero1 .ar7{
+    font-size: 13px;
+    padding: 0px 0px 0px 50px;
+}
+
+@media(max-width:1025px){
+    .hero1{
+        height: 1150px;
+        width: 800px;
+        background-color: rgb(242, 238, 238);
+        background-color: white;
+        align-items: center;
+        margin-left: 400px;
+        box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+    
+    }
+    .hero1 .ar1 .div1{
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .hero1 .ar1 .div2{
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    .hero1 .ar2{
+        display: flex;
+        padding: 20px 0px 0px 50px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin: 50px;
+    }
+    .hero1 .ar2 .div1{
+        font-size: 40px;
+    }
+    .hero1 .ar2 .div2{
+        font-size: 20px;
+    }
+    .hero1 .ar2 .div3{
+        padding: 0px 0px 0px 80px;
+    }
+    .hero1 .ar3{
+        display: flex;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin: 50px;
+    }
+    .hero1 .ar3 .div1 img{
+        height: 80px;
+        width: 130px;
+        padding: 0px 0px 0px 30px;
+    } 
+    .hero1 .ar3 .div2 a{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+    }
+    .hero1 .ar3 .div2 {
+        padding: 20px 0px 0px 100px;
+    
+    }
+    .hero1 .ar3 .div3{
+        padding: 20px 0px 0px 150px;
+        font-size: 40px;
+        color: black;
+    }
+    .hero1 .ar4 {
+        display: flex;
+        margin: 50px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+    }
+    .hero1 .ar4 .div1 img{
+        height: 80px;
+        width: 130px;
+        padding: 0px 0px 0px 30px;
+    
+    }
+    .hero1 .ar4 .div2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero1 .ar4 .div2{
+        padding: 20px 0px 0px 100px;
+        font-size: 30px;
+    }
+    .hero1 .ar4 .div3{
+        font-size: 40px;
+        padding: 20px 0px 0px 150px;
+        color: black;
+    }
+    .hero1 .ar5{
+        display: flex;
+        margin: 50px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+    }
+    .hero1 .ar5 .div1 img{
+        height: 80px;
+        width: 130px;
+        padding: 0px 0px 0px 30px;
+    
+    }
+    .hero1 .ar5 .div2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero1 .ar5 .div2{
+        padding: 20px 0px 0px 100px;
+        font-size: 30px;
+    }
+    .hero1 .ar5 .div3{
+        font-size: 40px;
+        padding: 20px 0px 0px 150px;
+        color: black;
+    }
+    
+    .hero1 .ar6{
+        display: flex;
+        margin: 50px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+    }
+    .hero1 .ar6 .div1 img{
+        height: 80px;
+        width: 130px;
+        padding: 0px 0px 0px 30px;
+    
+    }
+    .hero1 .ar6 .div2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero1 .ar6 .div2{
+        padding: 20px 0px 0px 100px;
+        font-size: 30px;
+    }
+    .hero1 .ar6 .div3{
+        font-size: 40px;
+        padding: 20px 0px 0px 150px;
+        color: black;
+    }
+    .hero1 .ar7{
+        font-size: 182px;
+        padding: 0px 0px 0px 50px;
+    }
+    
+
+}

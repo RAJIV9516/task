@@ -1,0 +1,637 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .topnav{
+    display: flex;
+}
+.topnav .ar1{
+    padding: 20px 0px 0px 175px;
+
+}
+.topnav article .div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topnav.ar2 .div1 div{
+
+} */
+/* ================================================= */
+/* .mainnav{
+    display: none;
+}
+
+.midnav{
+    display: none;
+}
+
+.topnav{
+    display: none;
+}
+#smallnav{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+
+}
+#smallnav #div1 img{
+    height: 150px;
+}
+#shownav{
+      padding: 20px 0px 0px 20px;
+
+}
+#shownav div a{
+    text-decoration: none;
+}
+#shownav div{
+    padding: 15px;
+}
+
+#input1:checked ~ #shownav{
+    left: 0px;
+    transition:left 1s;
+} */
+
+/* =========================================================== */
+.topnav{
+    display: flex;
+    box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+}
+.topnav article .ar1{
+    display: flex;
+    align-items: center;
+}
+.topnav article .ar2{
+    display: flex;
+}
+.topnav article .ar1 div{
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+}
+.topnav article .ar2 div{
+    margin: 20px;
+}
+.topnav article .ar2{
+    padding: 10px 0px 0px 40px;
+}
+.topnav article div img{
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.topnav .ar1 .div2{
+    margin-left: 300px;
+}
+.topnav .ar1 div a{
+    text-decoration: none;
+    color: black;
+}
+.topnav .ar2 a{
+    text-decoration: none;
+    color: black;
+}
+.topnav .ar1 .div2 .div3{
+    background-color: rgb(248, 216, 14);
+    padding: 10px ;
+    width: 80px; 
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+.topnav .ar1 .div2 .location i{
+    color: red;
+  
+}
+
+#smallnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    display: none;
+}
+
+#shownav{
+    width: 1400px;
+    height: 200vh;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -3000px;
+    /* opacity: 0.1; */
+    /* padding: 20px 0px 0px 20px; */
+
+}
+
+@media(max-width:1025px){
+
+    .topnav{
+        display: none;
+    }
+    #smallnav{
+        display: flex;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-evenly;
+        box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+        width: 1400px;
+    }
+    #smallnav #div1 img{
+        height: 100px;
+    }
+    #smallnav #div2{
+        font-size: 40px;
+        padding: 10px 0px 0px 40px;
+    }
+    #smallnav #div3 a{
+         text-decoration: none;
+         font-size: 20px;
+    }
+    #smallnav #div3{
+        background-color: rgb(248, 216, 14);
+        padding: 20px ;
+        width:100px; 
+        height: 30px;
+        margin-top: 15px;
+        border-radius: 5px;
+        /* margin: 30px 0px 0px 650px; */
+        margin-left: 950px;
+    
+    }
+    #shownav{
+          font-size: 27px;
+
+    }
+    #shownav div a{
+        text-decoration: none;
+        padding: 40px 0px 0px 100px;
+
+    }
+    #shownav div{
+        padding: 32px;
+    }
+    #shownav #div1{
+        display: flex;
+        justify-content:space-between;
+    }
+    #shownav #div2{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    #shownav #div5{
+        padding: 0px 50px 0px 130px;
+    }
+    #shownav #div6{
+        font-size: 30px ;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #shownav #div7{
+        font-size: 27px ;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #shownav #div8{
+        padding: 0px 50px 0px 130px;
+    }
+
+    #input1:checked ~ #shownav{
+        left: 0px;
+        /* transition:left 0.5s; */
+    }
+
+}
+/* ========================hero1======================== */
+.hero1 article .div1{
+    padding: 90px 0px 0px 440px;
+    font-size: 50px;
+}
+.hero1 article .div2{
+    padding: 30px 0px 0px 330px;
+    font-size: 40px;
+}
+.hero1 article .div3{
+    padding: 30px 0px 0px 330px;
+}
+.hero1 article .div4{
+    padding: 70px 0px 0px 330px;
+}
+.hero1 article form .in input{
+    display: block;
+    border: none;
+    outline: none;
+    padding-right: 600px;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+}
+/* .hero1 article form .in input{
+    display: block;
+    border: none;
+    margin-top: 70px;
+    outline: none;
+    border-bottom: 1px solid black;
+} */
+.hero1 article .div5{
+    padding: 20px 0px 0px 330px;
+}
+.hero1 article .div6{
+    padding: 40px 0px 0px 330px;
+
+}
+.hero1 article .div7{
+    padding: 50px 0px 0px 330px;
+
+}
+.hero1 article .div7 a{
+    text-decoration: none;
+    background-color: rgb(248, 216, 14);
+    padding: 10px;
+    border-radius: 5px;
+    /* height: 60px;
+    width: 50px; */
+
+}
+@media(max-width:1025px){
+    .hero1 article .div1{
+        padding: 90px 0px 0px 300px;
+        font-size: 65px;
+    }
+    .hero1 article .div2{
+        padding: 40px 0px 0px 250px;
+        font-size: 50px;
+    }
+    .hero1 article .div3{
+        padding: 30px 0px 0px 250px;
+        font-size: 20px;
+    }
+    .hero1 article .div4{
+        padding: 70px 0px 0px 250px;
+        font-size: 20px;
+    }
+    .hero1 article form .in input{
+        display: block;
+        border: none;
+        outline: none;
+        padding-right: 600px;
+        border-bottom: 1px solid black;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    /* .hero1 article form .in input{
+        display: block;
+        border: none;
+        margin-top: 70px;
+        outline: none;
+        border-bottom: 1px solid black;
+    } */
+    .hero1 article .div5{
+        padding: 20px 0px 0px 250px;
+    }
+    .hero1 article .div6{
+        padding: 40px 0px 0px 250px;
+        font-size: 20px;
+    
+    }
+    .hero1 article .div7{
+        padding: 50px 0px 0px 250px;
+        font-size: 30px;
+    
+    }
+    .hero1 article .div7 a{
+        text-decoration: none;
+        background-color: rgb(248, 216, 14);
+        padding: 15px;
+        border-radius: 5px;
+        /* height: 60px;
+        width: 50px; */
+    
+    }
+}
+/* =========================hero2============= */
+.hero2 .ar1 div img{
+    height: 340px;
+    width: 750px;
+    padding: 100px 0px 0px 180px;
+}
+.hero2{
+    display: flex;
+}
+.hero2 .ar2 .div1{
+    padding: 120px 0px 0px 25px;
+    font-size: 30px;
+}
+.hero2 .ar2 .div2{
+    padding: 20px 0px 0px 25px;
+    font-size: 17px;
+} 
+.hero2 .ar2 .div3{
+    padding: 30px 0px 0px 25px;
+    font-size: 12px;
+}
+.hero2 .ar2 .div4{
+    margin: 60px 0px 0px 25px;
+    font-size: 18px;
+    background-color: rgb(248, 216, 14);
+    padding: 15px;
+    width: 230px;
+    border-radius: 5px;
+}
+@media(max-width:1025px){
+    .hero2 .ar1 div img{
+        height: 340px;
+        width: 750px;
+        padding: 100px 0px 0px 100px;
+    }
+    .hero2{
+        display: flex;
+    }
+    .hero2 .ar2 .div1{
+        padding: 120px 0px 0px 50px;
+        font-size: 50px;
+    }
+    .hero2 .ar2 .div2{
+        padding: 20px 0px 0px 50px;
+        font-size: 25px;
+    } 
+    .hero2 .ar2 .div3{
+        padding: 30px 0px 0px 50px;
+        font-size: 15px;
+    }
+    .hero2 .ar2 .div4{
+        margin: 60px 0px 0px 50px;
+        font-size: 25px;
+        background-color: rgb(248, 216, 14);
+        padding: 15px;
+        width: 310px;
+        border-radius: 5px;
+    }
+}
+/* ===========================her03================ */
+.hero3 .div1{
+    padding: 100px 0px 0px 180px;
+    font-size: 40px;
+}
+.hero3 .ar1{
+    display: flex;
+    padding: 100px 0px 0px 170px;
+}
+.hero3 .ar1 div img{
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+}
+@media(max-width:1025px){
+    .hero3 .div1{
+        padding: 100px 0px 0px 100px;
+        font-size: 50px;
+    }
+    .hero3 .ar1{
+        display: flex;
+        padding: 100px 0px 0px 40px;
+    }
+    .hero3 .ar1 div img{
+        height: 320px;
+        width: 420px;
+        margin: 20px;
+    }
+}
+/* =========================hero4============================ */
+.hero4{
+    display: flex;
+}
+.hero4 .ar1{
+    padding: 0px 0px 0px 180px;
+
+}
+.hero4 .ar1 .div1{
+    font-size: 30px;
+
+}
+.hero4 .ar1 .div2{
+    padding: 20px 0px 0px 0px;
+}
+.hero4 .ar2 .div1{
+    font-size: 30px;
+    padding: 0px 0px 0px 50px;
+
+}
+.hero4 .ar2 .div2{
+    padding: 20px 0px 0px 50px;
+}
+.hero4 .ar2 .div3{
+    padding: 20px 0px 0px 50px;
+    font-size: 10px;
+}
+.hero4 .ar2 .div4{
+    padding: 40px 0px 0px 50px;
+}
+.hero4 .ar2 .div4 a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(248, 216, 14);
+    border-radius: 5px;
+    color: black;
+}
+.hero4 .ar3 {
+    padding: 0px 0px 0px 40px;
+}
+.hero4 .ar3 .div1{
+    font-size: 30px;
+}
+.hero4 .ar3 .div2{
+    padding: 20px 0px 0px 0px;
+}
+
+@media(max-width:1025px){
+    .hero4{
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    .hero4 .ar1{
+        padding: 20px 0px 0px 100px;
+    
+    }
+    .hero4 .ar1 .div1{
+        font-size: 40px;
+    
+    }
+    .hero4 .ar1 .div2{
+        padding: 20px 0px 0px 0px;
+    }
+    .hero4 .ar2 .div1{
+        font-size: 40px;
+        padding: 20px 0px 0px 400px;
+    
+    }
+    .hero4 .ar2 .div2{
+        padding: 20px 0px 0px 400px;
+        font-size: 20px;
+    }
+    .hero4 .ar2 .div3{
+        padding: 20px 0px 0px 400px;
+        font-size: 13px;
+    }
+    .hero4 .ar2 .div4{
+        padding: 40px 0px 0px 400px;
+        font-size: 25px;
+    }
+    .hero4 .ar2 .div4 a{
+        text-decoration: none;
+        padding: 15px;
+        background-color: rgb(248, 216, 14);
+        border-radius: 5px;
+        color: black;
+    }
+    .hero4 .ar3 {
+       padding: 20px 0px 0px 300px;
+       /* margin-left: 200px; */
+    }
+    .hero4 .ar3 .div1{
+        font-size: 40px;
+    }
+    .hero4 .ar3 .div2{
+        padding: 20px 0px 0px 0px;
+    }
+    
+}
+/* ==============================hero5======================= */
+.hero5{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 230px 0px 180px;
+    
+}
+.hero5 article div{
+    margin: 10px;
+}
+.hero5 article div a{
+    text-decoration: none;
+    color: black;
+}
+.hero5 article .div1{
+    font-size: 20px;
+    margin: 20px;
+}
+.hero5 .ar2 .div2 img{
+    font-size: 50px;
+}
+
+@media(max-width:1025px){
+    .hero5{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 0px 0px 200px;
+        font-size: 20px;
+        
+    }
+    .hero5 article div{
+        margin: 10px;
+    }
+    .hero5 article div a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero5 article .div1{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .hero5 .ar2 .div2 img{
+        font-size: 50px;
+    }
+
+}
+
+/* =============================hero6=========================== */
+.hero6 .ar1{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px 150px 0px 150px;
+}
+.hero6 .ar1 div{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.hero6 .ar1 div a{
+    text-decoration: none;
+    color: black;
+}
+.hero6 .ar1 .div1 img{
+    height: 30px;
+}
+.hero6 .ar1 .div2{
+    padding: 0px 0px 0px 400px;
+}
+.hero6 .ar2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px 0px 110px;
+}
+.hero6 .ar2 div a{
+    text-decoration: none;
+    color: black;
+}
+.hero6 .ar2 .div1 img{
+    height: 30px;
+    width: 30px;
+}
+.hero6 .ar3{
+    display: flex;
+    padding: 20px 0px 0px 145px;
+}
+.hero6 .ar3 div a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.hero6 .ar4 {
+   margin: 20px 150px 0px 150px;
+}
+
+@media(max-width:1025px){
+    .hero6 .ar1{
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 30px 50px 0px 150px;
+    }
+    .hero6 .ar1 .div1 img{
+         
+        height: 50px;
+        width: 50px;
+    }
+    .hero6 .ar1 .div2 img{
+        height: 50px;
+        width: 150px;
+    }
+    .hero6 .ar2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 0px 0px 150px;
+        font-size: 23px;
+        /* margin: 70px; */
+    }
+    .hero6 .ar2 div a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero6 .ar2 .div1 img{
+        height: 50px;
+        width: 50px;
+        /* padding-left: 500px; */
+    }
+    .hero6 .ar3{
+        display: flex;
+        padding: 40px 0px 0px 100px;
+        font-size: 25px;
+    }
+    .hero6 .ar3 div a{
+        text-decoration: none;
+        margin: 20px;
+        color: black;
+    }
+    .hero6 .ar4 {
+       margin: 20px 0px 0px 150px;
+    }
+}
