@@ -476,6 +476,15 @@ body{
     }
 
 }
+@media(max-width:321px){
+    .hero9{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 0px 0px 200px;
+        font-size: 20px;
+        
+    }
+}
 
 /* =============================hero10=========================== */
 .hero10 .ar1{
